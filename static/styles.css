@@ -1,0 +1,45 @@
+
+
+/* 
+
+
+ and at least 1 combinator selector when styling your CSS. 
+ */
+.center{
+    display: block;
+    margin-left:auto ;
+    margin-right: auto;
+    width: 50%;
+}
+
+#subHeader {
+    font-family: cursive; 
+    text-align: center; 
+    color: darkred ;
+}
+footer {
+    text-shadow: brown 1px 1px;
+}
+
+.h4 {
+    font-family: fantasy; color: peru; font-weight: bold; 
+} 
+
+a:hover{ 
+    color: red;
+}
+
+button {
+   
+    border: none; 
+    border-radius: 10px;
+    width: 150px;
+    height: 30px
+}
+
+button:hover {
+    box-shadow: 10px 5px 5px teal;
+} 
+
+
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SE147 Does Forms</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Recipe Submission Form</h1>
+    </header>
+    <main>
+        
+        
+    
+        <form onSubmit="handlesubmit">
+           
+            <br>  
+            <label for="recipe name">Recipe name here:</label>
+            <input 
+                type="recipe name" 
+                id="recipe name" 
+                name="recipe name" 
+                placeholder="Recipe name "
+                autocomplete="on"
+               
+                title="Please provide recipe name here"
+                multiple
+                required>
+              
+                <div role="alert" aria-live="assertive"></div>
+                <!-- title is what will be displayed in the input doesn't match pattern -->
+            <br>  
+            <br>
+            <label for="Ingredients">Ingredients:</label>
+            <input type="ingredients" id="ingredients" name="ingredients" placeholder="ingredients go here ... ">
+            <div role="alert" aria-live="assertive"></div>
+
+            <br>
+            <label for="instructions">Instructions:</label>
+            <input type="instructions" id="instructions" name="instructions" placeholder="instructions go here..." >
+            <div role="alert" aria-live="assertive"></div>
+            <br>
+           
+           
+            
+            </select>
+            <div role="alert">
+            <br>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+            
+        </form>
+        
+        <br>
+        <hr>
+  
+        </form>
+    </main>
+    
+</body>
+</html>
